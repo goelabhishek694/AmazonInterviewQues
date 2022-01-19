@@ -15,7 +15,7 @@ class Solution {
                     if(cmp!=0){
                         return cmp;
                     }
-                    return split1[0].compareTo(split2[1]);
+                    return split1[0].compareTo(split2[0]);
                 }
                 
                 if (!isDigit1 && isDigit2){
